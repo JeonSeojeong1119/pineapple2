@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>따듯한파인애플단</title>
+	<style>
+    @font-face {font-family: 'NeoDunggeunmo'; src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.3/NeoDunggeunmo.woff') format('woff'); font-weight: normal; font-style: normal}
+		body {font-family:'NeoDunggeunmo'; color: white; background: blue}
+    section {width: 1000px; margin: auto; padding-bottom: 100px}
+    h2 {font-size: 50px}
+    p {font-size: 25px; line-height: 1.5}
+    input[type="email"] {font-size: 16px; padding: 10px; width: 250px}
+    input[type="number"] {font-size: 16px; padding: 10px; width: 250px}
+    button {padding: 10px 20px; font-size: 16px; cursor: pointer; margin-left: 10px}
+    .flex{display: flex; gap: 30px}
+    .popup {display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1000; border: 2px solid #333; background-color: #fff; padding: 20px; box-shadow: 0px 0px 10px rgba(0,0,0,0.5)}
+    .popup img {max-width: 1200px; height: auto}
+    .overlay {display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.5); z-index: 999}
+    .hover-box {
+      display: inline-block;
+      position: relative;
+      padding: 20px;
+      color: blue;
+      background-color: #f0f0f0;
+      border: 2px solid #aaa;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    .hidden-text {
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      margin-top: 10px;
+      color: blue;
+      font-weight: bold;
+    }
+
+    .hover-box:hover .hidden-text {
+      opacity: 1;
+    }
+    #sumDisplay {font-size: 28px; margin-top: 30px}
+	</style>
+</head>
+<body>
+	<nav style="background: blue; font-size:25px; padding-top: 10px; padding-bottom: 10px">
+    <a>따듯한파인애플단</a>
+    <a href="#s1" style="color: white">후원하기</a>
+  </nav>
+  <section>
+    <h2>환영합니다!</h2>
+  </section>
+  <section>
+    <h2>따듯한파인애플단<br>Warm.Pineapple.Association</h2>
+    <p>따듯한파인애플단은 파인애플과 음식의 만남에 대한 인식을 개선하고, 이러한 메뉴들이 주류로 자리잡도록 하기 위해 평화적이고 창의적인 방식으로 활동하는 캠페인 단체 입니다.</p>
+  </section>
+  <section>
+    <h2>W.P.A 캠페인</h2>
+    <p>W.P.A에서 진행하는 캠페인에 대해 자세히 알아보세요.</p>
+    <div class="flex">
+      <div class="hover-box">사먹기
+        <div class="hidden-text">따듯한파인애플이 들어간 메뉴가 있다면 사먹어서 따듯한파인애플단의 굳건함을 알리기.</div>
+      </div>
+      <div class="hover-box">본사에 글 쓰기
+        <div class="hidden-text">단종 예정인 메뉴가 있다면 본사 게시판에 단종하지 말아달라고 읍소하기.</div>
+      </div>
+      <div class="hover-box">급식 신청하기
+        <div class="hidden-text">급식, 학식, 사내식당 등 메뉴에 대한 의견을 낼 수 있는 곳에 따듯한파인애플 식단을 요청하기</div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h2>캠페인 성과</h2>
+  </section>
+  <section>
+    <h2>W.P.A 핵심가치</h2>
+    <div class="flex">
+      <section>
+        <h2>인식개선</h2>
+        <p>우리는 따듯한파인애플의 인식을 개선하기 위해 따듯한파인애플의 맛있음을 널리 알립니다.</p>
+      </section>
+      <section>
+        <h2>독립성</h2>
+        <p>W.P.A는 하와이나 도미노피자 등 정부나 기업의 재정 지원을 받지 않습니다.</p>
+      </section>
+      <section>
+        <h2>글로벌</h2>
+        <p>지구촌 곳곳에 따듯한파인애플을 알리기 위해 W.P.A가 가진 자원을 극대화합니다.</p>
+      </section>
+      <section>
+        <h2>비폭력</h2>
+        <p>W.P.A는 따듯한파인애플이 싫다는 사람의 입에 억지로 따듯한파인애플을 집어넣지 않습니다.</p>
+      </section>
+    </div>
+  </section>
+  <section>
+    <h2>주요 프로젝트</h2>
+    <p>W.P.A는 "다양한 따듯한파인애플 음식들이 주류로 자리잡는 것"이라는 명확한 목표를 가지고 프로젝트를 진행합니다.</p>
+    <div class="flex">
+      <img src="pizza.png" style="width: 300px; height: auto">
+      <img src="rice.png" style="width: 300px; height: auto">
+      <img src="burger.png" style="width: 300px; height: auto">
+    </div>
+  </section>
+  <section>
+    <h2>임원진</h2>
+  </section>
+	<section>
+		<h2>뉴스레터 구독</h2>
+    <p>더 많은 W.A.P의 소식을 받아보고 싶다면?</p>
+    <input type="email" id="emailInput" placeholder="Email">
+    <button onclick="showRandomImage()">등록하기</button>
+    <div class="overlay" id="overlay" onclick="closePopup()">
+    </div>
+    <div class="popup" id="popup">
+      <img id="popupImage" src="" alt="랜덤 이미지">
+    </div>
+	</section>
+	<section id="s1">
+		<h2>후원하기</h2>
+    <p>후원금은 파인애플농가 지원 및 따듯한파인애플 메뉴 개발 연구에 사용됩니다.</p>
+    <div id="sumDisplay">누적 모금액 : <span id="sum">0</span></div>
+    <input type="number" id="numberInput" placeholder="원">
+    <button onclick="addNumber()">후원하기</button>
+	</section>
+  <footer></footer>
+	<script>
+    const images = ['news1.png', 'news2.png', 'news3.png'];
+
+    let total = 0;
+
+    function showRandomImage() {
+      const email = document.getElementById('emailInput').value;
+      if (!email) {
+        alert("이메일을 입력해 주세요.");
+        return;
+      }
+
+      const randomIndex = Math.floor(Math.random() * images.length);
+      const popupImage = document.getElementById('popupImage');
+      popupImage.src = images[randomIndex];
+
+      document.getElementById('overlay').style.display = 'block';
+      document.getElementById('popup').style.display = 'block';
+    }
+
+    function closePopup() {
+      document.getElementById('overlay').style.display = 'none';
+      document.getElementById('popup').style.display = 'none';
+    }
+
+    function addNumber() {
+      const input = document.getElementById('numberInput').value;
+      const number = parseFloat(input);
+
+      if (isNaN(number)) {
+        alert("숫자를 입력해 주세요.");
+        return;
+      }
+
+      total += number;
+      document.getElementById('sum').textContent = total;
+      document.getElementById('numberInput').value = '';
+    }
+  </script>
+</body>
+</html>
